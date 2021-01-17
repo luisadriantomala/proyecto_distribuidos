@@ -22,5 +22,5 @@ RUN python3 manage.py makemigrations restaurants
 RUN python3 manage.py migrate
 
 RUN echo "INSTALACION FINALIZADA"
-CMD ["python3", "manage.py runserver 0.0.0.0:$PORT"]
+CMD ["python3", "./manage.py runserver 0.0.0.0:$PORT"]
 RUN echo "SERVIDOR LEVANTADO"
