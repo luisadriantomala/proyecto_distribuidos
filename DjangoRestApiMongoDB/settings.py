@@ -25,7 +25,7 @@ SECRET_KEY = '2uxa(622c8p$5o7%d8lt%+a2m+_+c604f_53qi@=uxy2u*bw17'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
