@@ -1,1 +1,1 @@
-# proyecto_distribuidos
+# Restaurantes GYE
